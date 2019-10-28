@@ -14,6 +14,10 @@
    //Type appropriate comment here, and begin script below
    alert('Hello');
    alert(g_form.getValue('project_name'));
+	 var xhttp = new XMLHttpRequest();
+
+  xhttp.open("GET", "https://devopssn.azurewebsites.net/api/fromSNandStore?code=2r47CZBPtFUFm9uA/6zaunhQbjWY3NctXLarRKYXbtzNrR86KDgHTw==", true);
+  xhttp.send();
 }]]></script>
         <sys_class_name>sys_script_client</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -21,7 +25,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>120a0309db700010e106d1b1ca9619b6</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name>Hello from azure infrastructure</sys_name>
         <sys_overrides/>
         <sys_package display_value="Azure Infra" source="x_414987_azure_inf">8eee7609db300010e106d1b1ca961949</sys_package>
@@ -29,7 +33,7 @@
         <sys_scope display_value="Azure Infra">8eee7609db300010e106d1b1ca961949</sys_scope>
         <sys_update_name>sys_script_client_120a0309db700010e106d1b1ca9619b6</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-10-28 13:08:06</sys_updated_on>
+        <sys_updated_on>2019-10-28 13:14:54</sys_updated_on>
         <table>x_414987_azure_inf_azure_infrastructure</table>
         <type>onSubmit</type>
         <ui_type>10</ui_type>
