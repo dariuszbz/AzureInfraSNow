@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="ProjectsList" max_length="40" name="x_414987_azure_inf_projectslist" type="collection">
+        <element display="true" label="Project Name" max_length="128" name="project_name" type="string"/>
+    </element>
+</database>
